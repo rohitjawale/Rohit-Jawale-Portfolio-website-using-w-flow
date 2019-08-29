@@ -1220,7 +1220,7 @@ ol {
 	font-weight: 500;
 }
 
-.web-_design_div {
+.identity {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1245,13 +1245,99 @@ ol {
 	border-width: 1px;
 	border-color: transparent;
 	border-radius: 4px;
-	background-color: #4253ff;
+	background-color: rgba(234, 68, 53, 0.137);
+	color:#EA4335;
 }
 
+.webdesign {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 120px;
+	height: 25px;
+	padding-right: 0px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: transparent;
+	border-radius: 4px;
+	background-color: rgba(51, 116, 255, 0.123);
+	color:#3374FF;
+}
+
+.redesign {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 120px;
+	height: 25px;
+	padding-right: 0px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: transparent;
+	border-radius: 4px;
+	background-color: #19df831c;
+	color:#19df83;
+}
+
+.landingpage {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 120px;
+	height: 25px;
+	padding-right: 0px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: transparent;
+	border-radius: 4px;
+	background-color: rgba(251, 189, 4, 0.137);
+	color:#FBBC04;
+}
 .heading-8 {
 	padding-right: 0px;
 	font-family: 'Google sans', sans-serif;
-	color: #fff;
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
