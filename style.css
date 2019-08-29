@@ -15,7 +15,9 @@ html {
 }
 
 
-
+icon-nav-menu:before {
+    content: "\e602";
+}
 
 body {
 	margin: 0
@@ -363,7 +365,7 @@ h6 {
 
 p {
 	margin-top: 0;
-	margin-bottom: 10px
+	margin-bottom:0px;
 }
 
 blockquote {
@@ -799,7 +801,7 @@ ol {
 
 @media screen and (max-width:991px) {
 	.nav[data-collapse="medium"] .nav-menu {
-		display: none
+		display: block
 	}
 	.nav[data-collapse="medium"] .nav-button {
 		display: block
@@ -940,8 +942,9 @@ ol {
 .left_nav_div {
 	position: relative;
 	display: block;
+	margin-top:20px;
 	margin-left: 0px;
-	padding-left: 10px;
+	padding-left: 20px;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;
@@ -971,10 +974,10 @@ ol {
 
 .nav {
 	margin-top: 20px;
-	background-color: hsla(0, 0%, 86.7%, 0);
+	background-color:transparent;
 }
 
-.container {
+.nav_container {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -983,6 +986,22 @@ ol {
 	margin-top: 100px;
 }
 
+.hero-right-img {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+  }
+  
 .hero_left_div {
 	padding-top: 50px;
 }
@@ -992,7 +1011,7 @@ ol {
 	padding-left: 0px;
 	font-family: 'Google sans', sans-serif;
 	color: #828286;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 25px;
 	letter-spacing: 0.5px;
 }
