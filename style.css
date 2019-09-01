@@ -1223,10 +1223,10 @@ ol {
 }
 .image:hover {
 	background-color:rgba(0, 0, 0, 0.01);
-	background-color: rgba(0,0,0, 0.4);
 	filter: blur(8px);
 	-webkit-filter: blur(2px);
-	transition:.5s;
+	transition:.2s;
+	transition: ease-in;
 }
 
 .collection-list-wrapper {
@@ -1240,6 +1240,7 @@ ol {
 	font-weight: 500;
 }
 
+/*-----project-Category styles------*/
 .identity {
 	display: -webkit-box;
 	display: -webkit-flex;
