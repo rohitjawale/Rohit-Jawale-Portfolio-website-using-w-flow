@@ -33,194 +33,11 @@ summary {
 	display: block
 }
 
-audio,
-canvas,
-progress,
-video {
-	display: inline-block;
-	vertical-align: baseline
-}
-
-audio:not([controls]) {
-	display: none;
-	height: 0
-}
-
-[hidden],
-template {
-	display: none
-}
 
 a {
 	background-color: transparent
 }
 
-a:active,
-a:hover {
-	outline: 0
-}
-
-abbr[title] {
-	border-bottom: 1px dotted
-}
-
-b,
-strong {
-	font-weight: bold
-}
-
-dfn {
-	font-style: italic
-}
-
-h1 {
-	font-size: 2em;
-	margin: .67em 0
-}
-
-mark {
-	background: #ff0;
-	color: #000
-}
-
-small {
-	font-size: 80%
-}
-
-sub,
-sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline
-}
-
-sup {
-	top: -0.5em
-}
-
-sub {
-	bottom: -0.25em
-}
-
-img {
-	border: 0
-}
-
-svg:not(:root) {
-	overflow: hidden
-}
-
-figure {
-	margin: 1em 40px
-}
-
-hr {
-	box-sizing: content-box;
-	height: 0
-}
-
-pre {
-	overflow: auto
-}
-
-code,
-kbd,
-pre,
-samp {
-	font-family: monospace, monospace;
-	font-size: 1em
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-	color: inherit;
-	font: inherit;
-	margin: 0
-}
-
-button {
-	overflow: visible
-}
-
-button,
-select {
-	text-transform: none
-}
-
-button,
-html input[type="button"],
-input[type="reset"] {
-	-webkit-appearance: button;
-	cursor: pointer
-}
-
-button[disabled],
-html input[disabled] {
-	cursor: default
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0
-}
-
-input {
-	line-height: normal
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	box-sizing: border-box;
-	padding: 0
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-	height: auto
-}
-
-input[type="search"] {
-	-webkit-appearance: none
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none
-}
-
-fieldset {
-	border: 1px solid #c0c0c0;
-	margin: 0 2px;
-	padding: .35em .625em .75em
-}
-
-legend {
-	border: 0;
-	padding: 0
-}
-
-textarea {
-	overflow: auto
-}
-
-optgroup {
-	font-weight: bold
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0
-}
-
-td,
-th {
-	padding: 0
-}
 
 
 /* ==========================================================================
@@ -1005,8 +822,8 @@ ol {
 	padding-left: 0px;
 	font-family: 'Google sans', sans-serif;
 	color: #828286;
-	font-size: 15px;
-	line-height: 25px;
+	font-size: 20px;
+	line-height: 30px;
 	letter-spacing: 0.5px;
 }
 
@@ -1223,7 +1040,7 @@ ol {
 }
 .image:hover {
 	background-color:rgba(0, 0, 0, 0.01);
-	filter: blur(8px);
+	filter: blur(5px);
 	-webkit-filter: blur(2px);
 	transition:.2s;
 	transition: ease-in;
@@ -1247,7 +1064,7 @@ ol {
 	display: -ms-flexbox;
 	display: flex;
 	width: 120px;
-	height: 25px;
+	height: 30px;
 	padding-right: 0px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -1276,7 +1093,7 @@ ol {
 	display: -ms-flexbox;
 	display: flex;
 	width: 120px;
-	height: 25px;
+	height: 30px;
 	padding-right: 0px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -1305,7 +1122,7 @@ ol {
 	display: -ms-flexbox;
 	display: flex;
 	width: 120px;
-	height: 25px;
+	height: 30px;
 	padding-right: 0px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -1334,7 +1151,7 @@ ol {
 	display: -ms-flexbox;
 	display: flex;
 	width: 120px;
-	height: 25px;
+	height: 30px;
 	padding-right: 0px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -1365,12 +1182,12 @@ ol {
 }
 
 .button {
-	margin-top: 10px;
-	padding: 10px 30px;
+	margin-top: 18px;
+	padding: 15px 32px;
 	border-style: solid;
 	border-width: 0px;
 	border-color: rgba(0, 0, 0, 0.01);
-	border-radius: 8px;
+	border-radius: 5px;
 	background-color: #3374ff;
 	-webkit-transition: background-color 300ms ease-in-out;
 	transition: background-color 300ms ease-in-out;
@@ -1446,6 +1263,9 @@ ol {
 
 
 /*--------Contact------ --*/
+.contact_section {
+    margin-top:200px;
+}
 .containercon {
   width: 100%;
   height: auto;
@@ -1459,7 +1279,7 @@ ol {
   font-size: 15px;
   color: #404040;
   border: 2px solid #bfbfbf;
-  border-radius: 8px;
+  border-radius: 5px;
   outline: none;
   width: 100%;
   margin-bottom: 25px;
@@ -1585,10 +1405,10 @@ ol {
 }
 
 .secondary_button {
-	margin-top: 10px;
-	padding: 10px 30px;
+	margin-top: 18px;
+	padding: 15px 32px;
 	border: 2px solid #3374ff;
-	border-radius: 8px;
+	border-radius: 5px;
 	background-color: transparent;
 	-webkit-transition: background-color 300ms ease-in-out;
 	transition: background-color 300ms ease-in-out;
@@ -1713,7 +1533,7 @@ ol {
 		width: 255px;
 	}
 	.work_section {
-		padding-top: 220px;
+		padding-top:0px;
 	}
 	.collection-list-3 {
 		display: -webkit-box;
@@ -1815,6 +1635,7 @@ ol {
 		background-color: #027bff;
 	}
   /*-------Contact-------*/
+  
   .form_row .input {
     width: 100% !important;
     float: left;
