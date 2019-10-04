@@ -1,5 +1,5 @@
-/*Author:Rohit jawale
-Made with webFlow
+/*Author: Rohit jawale.
+  Made with webFlow
 */
 
 html {
@@ -16,23 +16,6 @@ icon-nav-menu:before {
 body {
 	margin: 0
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-	display: block
-}
-
 
 a {
 	background-color: transparent
