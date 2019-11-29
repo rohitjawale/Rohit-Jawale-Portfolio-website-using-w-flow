@@ -22,7 +22,7 @@ a {
 
 
 /* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
+   Base css
    ========================================================================== */
 
 @font-face {
@@ -57,6 +57,7 @@ img {
 	vertical-align: middle;
 	display: inline-block
 }
+.portfolio illustration final
 
 html.mod-touch * {
 	background-attachment: scroll !important
@@ -793,9 +794,14 @@ ol {
 	-ms-flex-align: center;
 	align-items: center;
   }
+  .illustration {
+	width: 530px;
+	max-width: none;
+	margin:0;
+  }
   
 .hero_left_div {
-	padding-top: 50px;
+	padding-top: 0px;
 }
 
 .paragraph {
@@ -1496,6 +1502,7 @@ ol {
 		-webkit-align-items: center;
 		-ms-flex-align: center;
 		align-items: center;
+		max-width: width 600px !important;
 	}
 	.paragraph {
 		text-align: center;
