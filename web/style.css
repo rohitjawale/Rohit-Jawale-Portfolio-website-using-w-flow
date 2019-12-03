@@ -1,16 +1,18 @@
-
+/*
+    Author:Rohit Jawale
+    rjmail@gmail.com
+    */
 
 html {
+	scroll-behavior:smooth;
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
 }
 
-
 icon-nav-menu:before {
     content: "\e602";
 }
-
 body {
 	margin: 0
 }
@@ -24,14 +26,6 @@ a {
 /* ==========================================================================
    Base css
    ========================================================================== */
-
-@font-face {
-	font-family: 'webfloicons';
-	src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format('truetype');
-	font-weight: normal;
-	font-style: normal
-}
-
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -57,7 +51,7 @@ img {
 	vertical-align: middle;
 	display: inline-block
 }
-.portfolio illustration final
+
 
 html.mod-touch * {
 	background-attachment: scroll !important
@@ -707,7 +701,7 @@ ol {
 
 
 /* ==========================================================================
-      Start of custom Webflow CSS
+      custom CSS
       ========================================================================== */
 
 .layout-grid {
@@ -735,7 +729,7 @@ ol {
 .left_nav_div {
 	position: relative;
 	display: block;
-	margin-top:20px;
+	margin-top:0px;
 	margin-left: 0px;
 	padding-left: 20px;
 	-webkit-box-orient: horizontal;
@@ -776,7 +770,7 @@ ol {
 }
 
 .hero-column {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .hero-right-img {
@@ -1023,14 +1017,12 @@ ol {
 	border-style: solid;
 	border-width: 1px;
 	border-color: transparent;
-	border-radius: 10px;
+	border-radius: 15px;
+	transition:transform .5s ease;
 }
+	
 .image:hover {
-	background-color:rgba(0, 0, 0, 0.01);
-	filter: blur(5px);
-	-webkit-filter: blur(2px);
-	transition:.2s;
-	transition: ease-in;
+	transform: scale(1.5);
 }
 
 .collection-list-wrapper {
@@ -1043,7 +1035,17 @@ ol {
 	font-size: 20px;
 	font-weight: 500;
 }
-
+.button {
+	display: inline-block;
+	padding: 9px 15px;
+	background-color: #3898EC;
+	color: white;
+	border: 0;
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 0
+}
 /*-----project-Category styles------*/
 .identity {
 	display: -webkit-box;
@@ -1100,7 +1102,8 @@ ol {
 	border-color: transparent;
 	border-radius: 4px;
 	background-color: rgba(51, 116, 255, 0.123);
-	color:#3374FF;
+	color:#2962ff;
+	font-weight:500;
 }
 
 .redesign {
@@ -1129,7 +1132,7 @@ ol {
 	border-color: transparent;
 	border-radius: 4px;
 	background-color: #19df831c;
-	color:#19df83;
+	color:#00bfa5;
 }
 
 .landingpage {
@@ -1158,7 +1161,7 @@ ol {
 	border-color: transparent;
 	border-radius: 4px;
 	background-color: rgba(251, 189, 4, 0.137);
-	color:#FBBC04;
+	color:#ffc400;
 }
 .heading-8 {
 	padding-right: 0px;
@@ -1181,6 +1184,42 @@ ol {
 	font-family: 'Google sans', sans-serif;
 	font-size: 15px;
 	cursor: pointer;
+}
+.discover-me-btn {
+	display: inline-block;
+    margin-top: 15px;
+    padding: 15px 32px;
+	border-radius: 5px;
+	color:white;
+    background-color: #3374ff;
+	font-family: 'Google sans', sans-serif;
+	text-decoration: none;
+    font-size: 15px;
+}
+.discover-me-btn:hover {
+background-color: #004acb;
+	box-shadow: 1px 7px 15px 3px rgba(78, 78, 78, 0.18)
+}
+.getcvbtn {
+	display: inline-block;
+    margin-left: 30px;
+    padding: 13px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3374ff;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Google sans', sans-serif;
+	color: #3374ff;
+	text-decoration: none;
+    font-size: 15px;
+}
+.getcvbtn:hover {
+    background-color: #e6eeff;
+	box-shadow:1px 7px 15px 3px rgba(78, 78, 78, 0.18)
+}
+.getcvbtn:focus {
+	background-color: rgba(51, 116, 255, 0.28);
 }
 
 .button:hover {
@@ -1294,7 +1333,27 @@ ol {
   color: #8f9ea5;
   letter-spacing: 1px
 }
-/*-------Mobile Responsive--------*/
+/*  ===============================
+    Portfolio Detail page CSS
+    ===============================*/
+.hero-portfolio {
+	max-width: 960px;
+	margin: 5em 0 5em 0;
+	text-align: left !important;
+}
+.detail {
+	display: flex;
+	letter-spacing: 1px;
+	font-size: 18px !important;
+	color: #666666 !important;
+	font-weight: 0 !important;
+	width: 100% !important;
+	line-height: 30px !important;
+}
+
+/*  ==========================================================================
+    Mobile Responsive
+    ========================================================================== */
 @media (min-width: 300px) and (max-width: 500px) {
  .form_row .input {
   width: 100% !important;
@@ -1504,6 +1563,10 @@ ol {
 		align-items: center;
 		max-width: width 600px !important;
 	}
+	.illustration {
+		width:300px;
+		max-width:none;
+	}
 	.paragraph {
 		text-align: center;
 	}
@@ -1516,6 +1579,10 @@ ol {
 	.about_section {
 		margin-right: 20px;
 		margin-left: 20px;
+	}
+	.getcvbtn {
+		margin-top: 16px;
+		margin-left: 0px;
 	}
 	.grid {
 		width: 255px;
